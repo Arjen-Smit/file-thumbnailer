@@ -1,0 +1,10 @@
+div.drop-box {
+    background-color: grey;
+    display: inline-block;
+    padding: 60px;
+    transition: background .3s ease;
+}
+
+div.drop-box.active {
+    background-color: hotpink;
+}
